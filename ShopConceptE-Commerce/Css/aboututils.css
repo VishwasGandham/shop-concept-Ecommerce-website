@@ -1,0 +1,137 @@
+.flexcenter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo{
+    display: flex;
+    align-items:center;
+}
+@keyframes vishwas3{
+    from{
+        width: 4vw;
+    }
+    to{
+        width: 4.4vw;
+    }
+}
+.logo img{
+    width: 4vw;
+    padding: 0 1vw;
+}
+.logo img:hover{
+    animation: vishwas3 0.3s ease-in-out 1 forwards;
+}
+.search{
+    display: flex;
+    align-items: center;
+    width: 57vw;
+    padding: 0px 3vw;
+}
+.search input{
+    width: 65vw;
+    border-radius: 0.5vw;
+    margin: 0px 0.5vw;
+    padding: 0.5vh 1vw;
+}
+@keyframes vishwas4{
+    from{
+        width: 1.9vw;
+    }
+    to{
+        width: 2.4vw;
+    }
+}
+.search img{
+    padding: 0.01vw 0.01vh;
+    width: 2vw;
+    cursor: pointer;
+}
+.search img:hover{
+    animation: vishwas4 0.3s ease-in-out 1 forwards;
+}
+.cart{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.login{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+@keyframes vishwas1{
+    from{
+        width: 2.5vw;
+        /* height: 4vh; */
+    }
+    to{
+        width: 3vw;
+        /* height: 4.5vh; */
+    }
+}
+.cart img{
+    width: 2.5vw;
+    height: 4.5vh;
+    padding-left: 4vw;
+}
+.cart img:hover{
+    animation: vishwas1 0.3s ease-in-out 1 forwards;
+}
+@keyframes vishwas2{
+    from{
+        width: 3vw;
+        /* height: 6.8vh; */
+    }
+    to{
+        width: 3.4vw;
+        /* height: 7.4vh; */
+    }
+}
+.login img{
+    width: 3vw;
+    position: relative;
+    left: 77vw;
+}
+.login img:hover{
+    animation: vishwas2 0.3s ease-in-out 1 forwards;
+}
+.box{
+    position: relative;
+    bottom: 72vh;
+    left: 6vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    /* border: 2px solid black; */
+    width: 35vw;
+    height: 50vh;
+}
+.bthome{
+    /* position: relative;
+    bottom: 9vh;
+    left: 90vw; */
+    width: 7.67vw;
+    height: 5vh;
+    background-color: rgb(253, 11, 225);
+    border: 1px solid black;
+}
+.bthome a{
+    text-decoration: none;
+    color: rgb(47, 225, 231);
+    background-color: rgb(253, 11, 225);
+    font-family: 'Acme', sans-serif;
+}
+.bthome a p big{
+    background-color: rgb(253, 11, 225);
+}
+.bthome :hover{
+    color: blue;
+}
+.cont img{
+    height: 90vh;
+    position: relative;
+    bottom: 3vh;
+    left: 44vw;
+}

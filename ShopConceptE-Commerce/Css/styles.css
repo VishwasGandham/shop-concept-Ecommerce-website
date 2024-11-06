@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Lobster&family=Lobster+Two:ital,wght@1,700&family=Oswald:wght@500&family=Roboto+Slab:wght@900&family=Skranji:wght@700&display=swap" rel="stylesheet');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 94vw;
+    height: 6.8vh;
+}
+nav .cart_login{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 5vw;
+}
+nav ul{
+    height: 6.8vh;
+    display: flex;
+    justify-content: space-between;
+    gap: 5vw;
+    align-items: center;
+}
+nav ul li{
+    font-size: large;
+    list-style: none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 2vh;
+    font-weight: 500;
+}
+nav ul li a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+nav ul li a:hover{
+    color: rgb(27, 0, 228);
+    font-weight: bolder;
+}
+nav ul li a:active{
+    color: rgb(27, 0, 228);
+    font-weight: bolder;
+}
+h1{
+    display: block;
+    align-self: flex-start;
+    margin-bottom: 1vh;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: left;
+    padding-top: 0.4vh;
+}
+.textcenter{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+footer{
+    background-color: rgb(80, 76, 76);
+    color: whitesmoke;
+    height: 5vh;
+}
+
+
+@keyframes slider {
+
+    0% {
+        left: 0;
+    }
+    
+    15% {
+        left: 0;
+    }
+    
+    23% {
+        left: -100%;
+    }
+    
+    38% {
+        left: -100%;
+    }
+    
+    46% {
+        left: -200%;
+    }
+    
+    61% {
+        left: -200%;
+    }
+    
+    69% {
+        left: -300%;
+    }
+    
+    84% {
+        left: -300%;
+    }
+    
+    92% {
+        left: -400%;
+    }
+
+    100%{
+        left: -400%;
+    }
+    
+    }
+    
+    #slider {
+        padding-top: 2.5vh;
+        overflow: hidden;
+        height: 56vh;
+        width: 92.5vw;
+        /* border: 2px solid black; */
+    
+    }
+    
+    #slider figure img {
+        width:20%;
+        height: 54vh;
+        float: left;
+    
+    }
+    
+    #slider figure {
+        position: relative;
+        width: 500%;
+        margin: 0;
+        left: 0;
+        text-align: left;
+        font-size: 0;
+        animation: 20s slider infinite; 
+    
+    }

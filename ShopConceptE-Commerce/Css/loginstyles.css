@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Oswald:wght@500&family=Roboto+Slab:wght@900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url('/Images/loginback.png');
+}
+
+.box {
+    width: 33vw;
+    height: 67vh;
+    border: 2px solid black;
+}
+
+.box img {
+    position: relative;
+    top: 1vh;
+    width: 8vw;
+    height: 20vh;
+}
+
+@keyframes vishwas3{
+    from{
+        width: 6vw;
+        height: 11vh;
+    }
+    to{
+        width: 8vw;
+        height: 13vh;
+    }
+}
+.imagebox img:hover{
+    animation: vishwas3 0.3s ease-in-out 1 forwards;
+}
+.bthome{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    bottom: 9vh;
+    left: 90vw;
+    width: 8vw;
+    height: 4vh;
+    background-color: rgb(234, 8, 234);
+}
+.bthome a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Acme', sans-serif;
+}
+.bthome :hover{
+    color: blue;
+}
+
+.user {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 1vw;
+}
+
+.password {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 1vw;
+}
+
+
+.fp a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Acme', sans-serif;
+}
+
+.fp a:hover {
+    color: rgb(12, 201, 211);
+    font-family: 'Acme', sans-serif;
+}
+.others{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin-top: 10px;
+    font-family: 'Acme', sans-serif;
+}
+
+
+.Loginnow button {
+    text-decoration: none;
+    color: black;
+    font-weight: 900;
+    font-size: 3.3vh;
+    background-color: rgb(234, 8, 234);
+}
+
+.Loginnow button:hover {
+    color: rgb(12, 201, 211);
+    background-color: rgb(234, 8, 234);
+}
+
+.signup a {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    
+}
+.signup a:hover {
+    color: rgb(12, 201, 211);
+}
+.submit{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1vh;
+    margin-top: 8vh;
+    font-family: 'Acme', sans-serif;
+}
+.user input[name=username]{
+    background: transparent;
+    border: 2px solid black;
+    font-size: 3vh;
+    display: flex;
+    height: 6vh;
+    width: 27vw;
+    text-align: start;
+    padding-left: 0.5vw;
+    color: rgb(255, 255, 255);
+    justify-content: center;
+    align-items: center;
+    font-family: 'Acme', sans-serif;
+}
+.user input[name=username]::placeholder{
+    text-align: start;
+    color: grey;
+    font-family: 'Acme', sans-serif;
+}
+
+.password input[name=password]{
+    background: transparent;
+    border: 2px solid black;
+    font-size: 3vh;
+    display: flex;
+    height: 5.8vh;
+    width: 27vw;
+    text-align: start;
+    padding-left: 0.5vw;
+    color: rgb(255, 255, 255);
+    justify-content: center;
+    align-items: center;
+    font-family: 'Acme', sans-serif;
+}
+.password input[name=password]::placeholder{
+    text-align: start;
+    color: grey;
+    font-family: 'Acme', sans-serif;
+}
+
+.user img {
+    width: 3vw;
+    height: 7vh;
+}
+.credentials{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-top: 40px;
+    width: 95%;
+}
+.password img {
+    width: 3vw;
+    height: 6vh;
+}
+.imagebox{
+    display: flex;
+    width: 5vw;
+    height: 10vh;
+    position: relative;
+    top: 1vh;
+    left: 0.5vw;
+}
+.imagebox img{
+    width: 6vw;
+    height: 11vh;
+}

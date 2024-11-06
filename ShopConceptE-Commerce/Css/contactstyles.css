@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Oswald:wght@500&family=Roboto+Slab:wght@900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: rgb(166, 202, 249);
+    position: sticky;
+    top: 0;
+}
+nav{
+    display: flex;
+}
+nav ul{
+    height: 6vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+nav ul li{
+    padding: 0 1vw;
+    list-style: none;
+    font-family: 'Roboto Slab', serif;
+}
+nav ul li a{
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+nav ul li a:hover{
+    color: rgb(27, 0, 228);
+    font-weight: bolder;
+}
+h1{
+    color: rgb(47, 47, 49);
+    padding-top: 3vh;
+    margin-bottom: 1.5vh;
+    font-family: 'Acme', sans-serif;
+    padding-left: 2vw;
+}
+p{
+    padding-top: 0.9vh;
+    text-align:center ;
+    font-family: 'Acme', sans-serif;
+}
+footer{
+    background-color: rgb(80, 76, 76);
+    color: whitesmoke;
+    height: 5vh;
+    /* width: 100vw; */
+}
+.slider img{
+    width: 100vw;
+    height: 50vh;
+}

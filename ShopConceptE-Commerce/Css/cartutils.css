@@ -1,0 +1,68 @@
+.flexcenter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo{
+    display: flex;
+    align-items:center;
+}
+@keyframes vishwas3{
+    from{
+        width: 4vw;
+    }
+    to{
+        width: 4.4vw;
+    }
+}
+.logo img{
+    width: 4vw;
+    padding: 0 1vw;
+}
+.logo img:hover{
+    animation: vishwas3 0.3s ease-in-out 1 forwards;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box img{
+    position: relative;
+    top: 15vh;
+    right: 2vw;
+    height: 30vh;
+    width: 20vw;
+}
+.writings{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    left: 35vw;
+    top: 7vw;
+    width: 30vw;
+    height: 30vh;
+    /* border: 2px solid black; */
+}
+.cs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    background-color: rgb(230, 42, 230);
+    width: 12vw;
+    height: 4vh;
+}
+.cs a{
+    background-color: rgb(230, 42, 230);
+    color: rgb(4, 4, 199);
+    font-weight: bolder;
+    text-decoration: none;
+    font-family: 'Roboto Slab', serif;
+}
+.cs a:hover{
+    cursor: pointer;
+    color: rgb(25, 196, 230);
+}

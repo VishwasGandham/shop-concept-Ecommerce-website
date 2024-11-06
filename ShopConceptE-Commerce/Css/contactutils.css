@@ -1,0 +1,231 @@
+.cont{
+    background-color: rgb(255, 255, 255);
+}
+.flexcenter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo{
+    display: flex;
+    align-items:center;
+}
+@keyframes vishwas3{
+    from{
+        width: 4vw;
+    }
+    to{
+        width: 4.4vw;
+    }
+}
+.logo img{
+    width: 4vw;
+    padding: 0 1vw;
+}
+.logo img:hover{
+    animation: vishwas3 0.3s ease-in-out 1 forwards;
+}
+.search{
+    display: flex;
+    align-items: center;
+    width: 57vw;
+    padding: 0px 3vw;
+}
+.search input{
+    width: 65vw;
+    border-radius: 0.5vw;
+    margin: 0px 0.5vw;
+    padding: 0.5vh 1vw;
+}
+@keyframes vishwas4{
+    from{
+        width: 1.9vw;
+    }
+    to{
+        width: 2.4vw;
+    }
+}
+.search img{
+    padding: 0.01vw 0.01vh;
+    width: 2vw;
+    cursor: pointer;
+}
+.search img:hover{
+    animation: vishwas4 0.3s ease-in-out 1 forwards;
+}
+.cart{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.login{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+@keyframes vishwas1{
+    from{
+        width: 2.5vw;
+        /* height: 4vh; */
+    }
+    to{
+        width: 3vw;
+        /* height: 4.5vh; */
+    }
+}
+.cart img{
+    width: 2.5vw;
+    height: 4.5vh;
+    padding-left: 4vw;
+}
+.cart img:hover{
+    animation: vishwas1 0.3s ease-in-out 1 forwards;
+}
+@keyframes vishwas2{
+    from{
+        width: 3vw;
+        /* height: 6.8vh; */
+    }
+    to{
+        width: 3.4vw;
+        /* height: 7.4vh; */
+    }
+}
+.login img{
+    width: 3vw;
+    /* height: 7.3vh; */
+    padding-left: 1vw;
+}
+.login img:hover{
+    animation: vishwas2 0.3s ease-in-out 1 forwards;
+}
+.slider{
+    display: flex;
+    justify-content: center;
+}
+.slider img{
+    padding-bottom: 2vh;
+    width: 100vw;
+    height: 54vh;
+}
+.card{
+    max-width: 97vw;
+    margin: auto;
+}
+.lines{
+    font-family: 'Oswald', sans-serif;
+}
+.card-item img:hover{
+    cursor: pointer;
+}
+.card-item{
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0vh 2.7vw;
+}
+.textcenter{
+    text-align: center;
+}
+.box{
+    display: flex;
+    height: 21vh;
+}
+.box1{
+    /* border: 2px solid black; */
+    width: 25vw;
+    height: 42vh;
+    position: relative;
+    left: 15vw;
+    top: -15vh;
+}
+.box2{
+    /* border: 2px solid black; */
+    width: 25vw;
+    height: 42vh;
+    position: relative;
+    left: 35vw;
+    top: -15vh;
+ }
+ .box1 a{
+    text-decoration: none;
+ }
+ .box2 a{
+    text-decoration: none;
+ }
+.imagebox{
+    display: flex;
+    width: 5vw;
+    height: 10vh;
+    position: relative;
+    bottom: 55vh;
+    left: 0.5vw;
+}
+.imagebox img{
+    width: 5vw;
+    height: 9vh;
+}
+
+@keyframes vishwas3{
+    from{
+        width: 5vw;
+        height: 9vh;
+    }
+    to{
+        width: 6vw;
+        height: 10vh;
+    }
+}
+.imagebox img:hover{
+    animation: vishwas3 0.3s ease-in-out 1 forwards;
+}
+.bthome{
+    position: relative;
+    bottom: 65vh;
+    left: 90vw;
+    width: 8vw;
+    height: 4vh;
+    background-color: rgb(64, 127, 236);
+}
+.bthome :hover{
+    color: rgb(46, 1, 46);
+}
+.back{
+    text-align: center;
+    color: whitesmoke;
+}
+.bthome a{
+    text-decoration: none;
+}
+.box1 img{
+    position: relative;
+    left: 9vw;
+    height: 15vh;
+    width: 7vw;
+}
+.box2 img{
+    position: relative;
+    left: 9vw;
+    height: 15vh;
+    width: 7vw;
+}
+.getcall{
+    cursor: pointer;
+    position: relative;
+    left: 9vw;
+    background-color: rgb(211, 50, 211);
+    color: black;
+    width: 6vw;
+    height: 4vh;
+    border: 2px solid black;
+}
+.chat{
+    cursor: pointer;
+    position: relative;
+    left: 9.5vw;
+    background-color: rgb(211, 50, 211);
+    color: black;
+    width: 6vw;
+    height: 4vh;
+    border: 2px solid black;
+}
